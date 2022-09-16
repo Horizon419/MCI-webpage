@@ -19,23 +19,23 @@ const Values = () => {
 
       {/* slider */}
       <Swiper
-        spaceBetween={30}
-        slidesPerView={3}
+        spaceBetween={1}
+        slidesPerView={2}
         grabCursor={true}
         className="portfolio-slider"
       >
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img src={Hu} alt="" />
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
           <img src={Gym} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={Gpt} alt="" />
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img src={Hub} alt="" />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );

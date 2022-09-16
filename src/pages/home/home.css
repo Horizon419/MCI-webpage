@@ -83,6 +83,7 @@
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    
 
 }
 
@@ -299,4 +300,41 @@ footer {
     display: flex;
     gap: 1rem;
     align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .main__header {
+        height: fit-content;
+        padding: 6rem 0;
+        display: row;
+    }
+
+    .main__header-container {
+        gap: 0;
+    }
+
+    .programs__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
