@@ -1,6 +1,9 @@
 import React from 'react';
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import Programs from "../../components/Programs";
+import Testimony from '../../components/Testimony';
+import Values from "../../components/Values";
 import './home.css'
 
 const Home = () => {
@@ -8,6 +11,9 @@ const Home = () => {
     <>
       <Header />
       <Programs />
+      <Values />
+      <Testimony />
+      <Footer/>
       
     </>
   );

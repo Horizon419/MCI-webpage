@@ -3,7 +3,6 @@ import SectionHead from './SectionHead';
 import { programs } from '../data'
 import {Link} from 'react-router-dom'
 import Card from '../UI/Card';
-import {AiFillCaretRight} from 'react-icons/ai'
 
 const Programs = () => {
   return (
@@ -12,15 +11,15 @@ const Programs = () => {
         <SectionHead icon={<FaCrown />} title="Programs" />
 
         <div className="programs__wrapper">
-          {programs.map(({ id, icon, title, info, path }) => {
+          {programs.map(({ id, icon, title, info }) => {
             return (
               <Card className="programs__programs" key={id}>
                 <span>{icon}</span>
                 <h4>{title}</h4>
                 <small>{info}</small>
-                <Link to={path} className="btn sm">
+                <Link to='/about' className="btn sm">
                   Learn More
-                  <AiFillCaretRight />
+                  
                 </Link>
               </Card>
             );
