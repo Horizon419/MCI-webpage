@@ -9,6 +9,7 @@ import profilePic2 from "../images/presh.jpeg";
 import profilePic3 from "../images/jaff.jpeg";
 import profilePic4 from "../images/sam.jpeg";
 import profilePic5 from "../images/linda.jpeg";
+import profilePic6 from "../images/deby.jpeg";
 
 const Testimony = () => {
   const clients = [
@@ -38,9 +39,9 @@ const Testimony = () => {
         "Learning Programming is an experience that I won't forget anytime soon. There were times that I wanted to give up or rather I gave up but all thanks to the push from MCI family I decided to push further and I am grateful I did. I appreciate",
     },
     {
-      img: profilePic4,
+      img: profilePic6,
       review:
-        "It was a beautiful experience getting to learn codes from scratch, all thanks to our tutors for their patience, even though I felt like giving up along the line but their encouragement and zeal kept me going to the happy ending.",
+        "Applying for Careers in Code was one of the best decisions I've made in my entire life! Over the course of 6 months, I went from a little knowledge of HTML and CSS to a full-stack JavaScript web developer. The instructors  were always willing to go out of their way to help with anything we needed throughout the duration of class. I'm thrilled I got the opportunity to train in a field that I'm passionate about and I look forward to contributing to MCI Academy",
     },
     {
       img: profilePic4,
