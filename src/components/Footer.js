@@ -70,7 +70,7 @@ const Footer = () => {
             <Link to="/about" className="s">
               <FooterLink>Vision</FooterLink>
             </Link>
-            <Link to="/services" className="s">
+            <Link to="/about" className="s">
               <FooterLink>Mission</FooterLink>
             </Link>
             <Link to="/contact">

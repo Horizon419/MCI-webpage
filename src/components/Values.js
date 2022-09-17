@@ -6,38 +6,14 @@ import Hub from '../images/hub.png';
 import Gpt from "../images/gpt.png";
 import Gym from "../images/gym.png";
 import Hu from "../images/login.png";
+import Cards from "./Cards";
 
 
 
 const Values = () => {
   
   return (
-    <div className="portfolio" id="portfolio">
-      {/* heading */}
-      <span>Students Project</span>
-      <span></span>
-
-      {/* slider */}
-      <Swiper
-        spaceBetween={1}
-        slidesPerView={2}
-        grabCursor={true}
-        className="portfolio-slider"
-      >
-        {/* <SwiperSlide>
-          <img src={Hu} alt="" />
-        </SwiperSlide> */}
-        <SwiperSlide>
-          <img src={Gym} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Gpt} alt="" />
-        </SwiperSlide>
-        {/* <SwiperSlide>
-          <img src={Hub} alt="" />
-        </SwiperSlide> */}
-      </Swiper>
-    </div>
+    <Cards/>
   );
-}; 
+};
 export default Values

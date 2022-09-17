@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../../components/Footer';
+
 import Header from '../../components/Header';
 import Programs from "../../components/Programs";
 import Testimony from '../../components/Testimony';
@@ -13,7 +13,7 @@ const Home = () => {
       <Programs />
       <Values />
       <Testimony />
-      <Footer/>
+      {/* <Footer/> */}
       
     </>
   );

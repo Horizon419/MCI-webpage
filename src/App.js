@@ -6,6 +6,7 @@ import NotFound from "./pages/notFound/NotFound";
 import Services from "./pages/services/Services";
 import Projects from "./pages/projects/Projects";
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 
 
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

@@ -75,6 +75,18 @@
 
 
 
+
+
+
+@media screen and (max-width: 600px) {
+    .programs__wrapper {
+            grid-template-columns: 1fr;
+        }
+}
+
+
+
+
 /* ================================VALUES */
 
 .portfolio {
@@ -233,7 +245,7 @@
     background: navy;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     .t-wrapper {
         padding: 0;
     }

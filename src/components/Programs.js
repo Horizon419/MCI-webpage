@@ -17,7 +17,7 @@ const Programs = () => {
                 <span>{icon}</span>
                 <h4>{title}</h4>
                 <small>{info}</small>
-                <Link to='/about' className="btn sm">
+                <Link to='/contact' className="btn sm">
                   Learn More
                   
                 </Link>

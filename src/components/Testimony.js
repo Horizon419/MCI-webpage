@@ -10,6 +10,8 @@ import profilePic3 from "../images/jaff.jpeg";
 import profilePic4 from "../images/sam.jpeg";
 import profilePic5 from "../images/linda.jpeg";
 import profilePic6 from "../images/deby.jpeg";
+import profilePic7 from "../images/mimi.jpg";
+import profilePic8 from "../images/dev.jpg";
 
 const Testimony = () => {
   const clients = [
@@ -44,9 +46,14 @@ const Testimony = () => {
         "Applying for Careers in Code was one of the best decisions I've made in my entire life! Over the course of 6 months, I went from a little knowledge of HTML and CSS to a full-stack JavaScript web developer. The instructors  were always willing to go out of their way to help with anything we needed throughout the duration of class. I'm thrilled I got the opportunity to train in a field that I'm passionate about and I look forward to contributing to MCI Academy",
     },
     {
-      img: profilePic4,
+      img: profilePic7,
       review:
-        "It was a beautiful experience getting to learn codes from scratch, all thanks to our tutors for their patience, even though I felt like giving up along the line but their encouragement and zeal kept me going to the happy ending.",
+        "I think coding knowledge is always going to make someone an asset to the job market no matter what field, but on a personal level, it's just fun. I have a more right-brain mind, so I assumed coding would be boring, but it's allowed me to take my creativity to the next level",
+    },
+    {
+      img: profilePic8,
+      review:
+        "Before I joined this able organization, my mindset about so many things were quite low but after a while of being exposed I became a better person who thinks critically, deep and great.",
     },
   ];
 
