@@ -8,10 +8,7 @@ import Projects from "./pages/projects/Projects";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FloatingWhatsApp from 'react-floating-whatsapp';
-
-
-
-
+import './App.css'
 
 
 const App = () => {
@@ -25,6 +22,7 @@ const App = () => {
         notificationDelay={60000} // 1 minute
         notificationSound="true"
         className="chat"
+        
       />
       <BrowserRouter>
         <Navbar />

@@ -1,0 +1,16 @@
+.chat {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: unset;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 4px;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}

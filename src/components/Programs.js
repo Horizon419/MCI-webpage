@@ -18,7 +18,7 @@ const Programs = () => {
                 <h4>{title}</h4>
                 <small>{info}</small>
                 <Link to='/contact' className="btn sm">
-                  Learn More
+                  More
                   
                 </Link>
               </Card>
