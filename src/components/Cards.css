@@ -1,12 +1,18 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  background: rgb(255, 255, 255);
 }
 
 h1 {
   text-align: center;
 }
 
+button {
+  height: 30px;
+  
+  color: white;
+  
+}
 .cards__container {
   display: flex;
   flex-flow: column;
@@ -14,11 +20,13 @@ h1 {
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
+ 
 }
 
 .cards__wrapper {
   position: relative;
   margin: 50px 0 45px;
+ 
 }
 
 .cards__items {
@@ -30,6 +38,8 @@ h1 {
   flex: 1;
   margin: 0 1rem;
   border-radius: 10px;
+  background: rgb(245, 107, 107);
+  color: black;
 }
 
 .cards__item__link {
@@ -94,7 +104,7 @@ h1 {
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: #000000;
   font-size: 18px;
   line-height: 24px;
 }

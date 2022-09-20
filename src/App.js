@@ -19,7 +19,7 @@ const App = () => {
         accountName="MCI Academy"
         allowClickAway="true"
         notification
-        notificationDelay={60000} // 1 minute
+        notificationDelay={600000}
         notificationSound="true"
         className="chat"
         

@@ -12,9 +12,9 @@ import {
 const Footer = () => {
   return (
     <>
-      <hr/>
+      <hr />
       <Box>
-        <hr/>
+        <hr />
         <Container>
           <Row>
             <Column>
@@ -47,24 +47,52 @@ const Footer = () => {
             </Column>
             <Column>
               <Heading>Social Media</Heading>
-              <FooterLink href="#">
+              <FooterLink>
                 <i className="fab fa-facebook-f">
-                  <span style={{ marginLeft: "10px" }}>Facebook</span>
+                  <span style={{ marginLeft: "10px" }}>
+                    <a
+                      href="https://facebook.com/groups/764300971307086/"
+                      rel="noopener"
+                      target="_blank"
+                    >
+                      Facebook
+                    </a>
+                  </span>
                 </i>
               </FooterLink>
-              <FooterLink href="#">
+              <FooterLink>
                 <i className="fab fa-instagram">
-                  <span style={{ marginLeft: "10px" }}>Instagram</span>
+                  <span style={{ marginLeft: "10px" }}>
+                    <a
+                      href="https://www.instagram.com/invites/contact/?i=w26lrejdhypi&utm_content=peq86do"
+                      rel="noopener"
+                      target="_blank"
+                    >
+                      Instagram
+                    </a>
+                  </span>
                 </i>
               </FooterLink>
-              <FooterLink href="#">
+              <FooterLink>
                 <i className="fab fa-twitter">
-                  <span style={{ marginLeft: "10px" }}>Twitter</span>
+                  <span style={{ marginLeft: "10px" }}>
+                    <a href="" rel="noopener" target="_blank">
+                      Twitter
+                    </a>
+                  </span>
                 </i>
               </FooterLink>
-              <FooterLink href="#">
+              <FooterLink href>
                 <i className="fab fa-youtube">
-                  <span style={{ marginLeft: "10px" }}>Youtube</span>
+                  <span style={{ marginLeft: "10px" }}>
+                    <a
+                      href="https://youtube.com/channel/UC3dL4a_ihu4EMZPnJBqcuJw"
+                      rel="noopener"
+                      target="_blank"
+                    >
+                      Youtube
+                    </a>
+                  </span>
                 </i>
               </FooterLink>
             </Column>

@@ -5,6 +5,7 @@ import Gpt from "../images/gpt.png";
 import Gym from "../images/gym.png";
 import Hu from "../images/login.png";
 import CardItem from './CardItem';
+import { Button } from 'react-bootstrap';
 
 function Cards() {
   return (
@@ -13,41 +14,73 @@ function Cards() {
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
-            
-              <CardItem
-                src={Hub}
-                text="This is a fully functional and responsive movie trailer and search app"
-                label="Movie Hub"
-                path="/projects"
-              />
-            
+            <Button>
+              <a
+                href="https://jman-movie-app.vercel.app/"
+                rel="noopener"
+                target="_blank"
+              >
+                VIEW
+              </a>
+            </Button>
+            <CardItem
+              src={Hub}
+              text="This is a fully functional and responsive movie trailer and search app"
+              label="Movie Hub"
+            />
+            <Button>
+              <a
+                href="https://jman-fitclub.vercel.app/"
+                rel="noopener"
+                target="_blank"
+              >
+                VIEW
+              </a>
+            </Button>
             <CardItem
               src={Gym}
-              text="Porfolio Website"
+              text="This a completed gym website"
               label="Website"
-              path="/projects"
             />
           </ul>
           <ul className="cards__items">
-            <CardItem
-              src={Gpt}
-              text="This a completed gym website"
-              label="Website"
-              path="/projects"
-            />
+            <Button>
+              <a
+                href="https://portfolio-web-tau.vercel.app/"
+                rel="noopener"
+                target="_blank"
+              >
+                VIEW
+              </a>
+            </Button>
+            <CardItem src={Gpt} text="Porfolio Website" label="Website" />
+            <Button>
+              <a
+                href="https://signin-ruddy.vercel.app"
+                rel="noopener"
+                target="_blank"
+              >
+                VIEW
+              </a>
+            </Button>
             <CardItem
               src={Hu}
               text="A fully responsive and active login-page liked to firebase"
               label="Login/Signup"
-              a
-              href="https://signin-ruddy.vercel.app"
-              path="/projects"
             />
+            <Button>
+              <a
+                href="https://jman-movie-app.vercel.app/"
+                rel="noopener"
+                target="_blank"
+              >
+                VIEW
+              </a>
+            </Button>
             <CardItem
               src={Hub}
-              text="Ride through the Sahara Desert on a guided camel tour"
-              label="Adrenaline"
-              path="/projects"
+              text="This is a fully functional and responsive movie trailer and search app"
+              label="Hub"
             />
           </ul>
         </div>
