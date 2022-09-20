@@ -13,6 +13,15 @@ const Projects = () => {
         citizen and a successful individual.
       </Headers>
       <Cards />
+      <a
+        href="https://forms.gle/be3mpYBT8DotbrKp8"
+        className="btn lg"
+        rel="noopener"
+        target="_blank"
+      >
+        Register with us
+      </a>
+      
     </>
   );
 }

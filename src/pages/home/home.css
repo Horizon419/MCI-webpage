@@ -36,14 +36,6 @@
     position: relative;
 }
 
-.main__header-circle {
-    width: 25rem;
-    height: 25rem;
-    background: (blue, transparent);
-    border-radius: 50%;
-    position: absolute;
-}
-
 .main__header-image {
     position: relative;
 }
@@ -84,6 +76,11 @@
         }
 }
 
+@media screen and (max-width: 480px) {
+    .programs__wrapper {
+        grid-template-columns: 1 1fr;
+    }
+}
 
 
 

@@ -13,17 +13,19 @@ function Cards() {
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
-            <CardItem
-              src={Hub}
-              text="This is a fully functional and responsive movie trailer and search app"
-              label="Movie Hub"
-              path="/services"
-            />
+            
+              <CardItem
+                src={Hub}
+                text="This is a fully functional and responsive movie trailer and search app"
+                label="Movie Hub"
+                path="/projects"
+              />
+            
             <CardItem
               src={Gym}
               text="Porfolio Website"
               label="Website"
-              path="/services"
+              path="/projects"
             />
           </ul>
           <ul className="cards__items">
@@ -31,19 +33,21 @@ function Cards() {
               src={Gpt}
               text="This a completed gym website"
               label="Website"
-              path="/services"
+              path="/projects"
             />
             <CardItem
               src={Hu}
               text="A fully responsive and active login-page liked to firebase"
               label="Login/Signup"
-              path="/products"
+              a
+              href="https://signin-ruddy.vercel.app"
+              path="/projects"
             />
             <CardItem
               src={Hub}
               text="Ride through the Sahara Desert on a guided camel tour"
               label="Adrenaline"
-              path="/sign-up"
+              path="/projects"
             />
           </ul>
         </div>
