@@ -8,6 +8,7 @@ import Headers from "../../components/Headers";
 import Mcc from "../../images/mccci.jpg";
 
 
+
 const Contact = () => {
   const formInitialDetails = {
     firstName: "",
@@ -81,6 +82,7 @@ const Contact = () => {
                       isVisible ? "animate__animated animate__fadeIn" : ""
                     }
                   >
+                 
                     <h2>Get In Touch</h2>
                     <form onSubmit={handleSubmit}>
                       <Row>

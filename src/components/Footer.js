@@ -12,9 +12,9 @@ import {
 const Footer = () => {
   return (
     <>
-      <hr />
+      
       <Box>
-        <hr />
+        <hr/>
         <Container>
           <Row>
             <Column>

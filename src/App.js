@@ -8,12 +8,14 @@ import Projects from "./pages/projects/Projects";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import FloatingWhatsApp from 'react-floating-whatsapp';
-import './App.css'
+import './App.css';
+import Scroll from './Scroll';
 
 
 const App = () => {
   return (
     <>
+      
       <FloatingWhatsApp
         phoneNumber="+2348102227734"
         accountName="MCI Academy"
@@ -22,9 +24,9 @@ const App = () => {
         notificationDelay={600000}
         notificationSound="true"
         className="chat"
-        
       />
       <BrowserRouter>
+        <Scroll/>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
