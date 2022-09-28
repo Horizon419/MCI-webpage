@@ -62,11 +62,9 @@ const Testimony = () => {
       <div className="t-heading">
         <span>{<ImQuotesLeft />}</span>
         <span>Testimonies From Our Students</span>
-        <div className="blur t-blur1" style={{ background: "blue" }}></div>
-        <div className="blur t-blur2" style={{ background: "skyblue" }}></div>
+        
       </div>
       <Swiper
-        // install Swiper modules
         modules={[Pagination]}
         slidesPerView={1}
         pagination={{ clickable: true }}
