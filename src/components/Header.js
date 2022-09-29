@@ -1,12 +1,11 @@
 import { Link } from 'react-router-dom';
-import Image from '../images/mci.png' 
-import Imageslides from './Imageslides';
+import Image from '../images/mci.png';
 
 
 const Header = () => {
   return (
     <>
-      <Imageslides />
+      
       <header className="main__header">
         <div className="container main__header-container">
           <div className="main__header-left">

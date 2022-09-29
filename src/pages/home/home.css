@@ -84,11 +84,12 @@
         }
 }
 
-@media screen and (max-width: 480px) {
-    .programs__wrapper {
+/* @media screen and (max-width: 480px) {
+    .programs__wrapper{
         grid-template-columns: 1fr;
+      
     }
-}
+} */
 
 
 
