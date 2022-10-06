@@ -165,36 +165,34 @@ const Contact = () => {
               <i className="pe-7s-map-marker"></i>
               <h4>Address</h4>
               <span>
-                PO Box 97845 Baker st. 567, Los Angeles
+                MCI Center, Opposite School for the Gifted
                 <br />
-                California - US.
+                Gwagwaglada, Abuja.
               </span>
             </li>
             <li>
               <i className="pe-7s-mail-open-file"></i>
               <h4>Email address</h4>
               <span>
-                admission@udema.com - info@udema.com
+                Mcicodingacademy@gmail.com
                 <br />
-                <small>Monday to Friday 9am - 7pm</small>
+                <small>Monday to Saturday 9am - 9pm</small>
               </span>
             </li>
             <li>
               <i className="pe-7s-phone"></i>
               <h4>Contacts info</h4>
               <span>
-                + 61 (2) 8093 3402 + 61 (2) 8093 3402
+                + 2348089698649 + 2348102227734
                 <br />
-                <small>Monday to Friday 9am - 7pm</small>
+                <small>Monday to Saturday 9am - 9pm</small>
               </span>
             </li>
           </ul>
         </div>
       </div>
 
-{/* NEXT LINE BELOW */}
-
-    
+      {/* NEXT LINE BELOW */}
     </>
   );
 };

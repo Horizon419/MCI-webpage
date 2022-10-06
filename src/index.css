@@ -213,6 +213,13 @@ img {
   transition: var(--transition);
 }
 
+@media screen and (max-width: 480px) {
+  .card {
+    width: 10rem;
+  }
+  
+  }
+
 .card:hover {
   background: transparent;
   border-color: navy;

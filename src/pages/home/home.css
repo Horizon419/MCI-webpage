@@ -81,13 +81,16 @@
 
 @media screen and (max-width: 600px) {
     .programs__wrapper {
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 350px 350px 1fr;
+            display: grid;
+                grid-template-columns: 1fr;
+                grid-gap: 50px;
         }
 }
 
 @media screen and (max-width: 480px) {
     .programs__wrapper{
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr 350px 350px 1fr;
       
     }
 }
