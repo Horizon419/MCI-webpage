@@ -17,7 +17,7 @@ function Cards() {
             <Button>
               <a
                 href="https://jman-movie-app.vercel.app/"
-                rel="noopener"
+                rel="noreferrer"
                 target="_blank"
               >
                 VIEW
@@ -31,7 +31,7 @@ function Cards() {
             <Button>
               <a
                 href="https://jman-fitclub.vercel.app/"
-                rel="noopener"
+                rel="noreferrer"
                 target="_blank"
               >
                 VIEW
@@ -47,7 +47,7 @@ function Cards() {
             <Button>
               <a
                 href="https://portfolio-web-tau.vercel.app/"
-                rel="noopener"
+                rel="noreferrer"
                 target="_blank"
               >
                 VIEW
@@ -57,7 +57,7 @@ function Cards() {
             <Button>
               <a
                 href="https://signin-ruddy.vercel.app"
-                rel="noopener"
+                rel="noreferrer"
                 target="_blank"
               >
                 VIEW
@@ -71,7 +71,7 @@ function Cards() {
             <Button>
               <a
                 href="https://jman-movie-app.vercel.app/"
-                rel="noopener"
+                rel="noreferrer"
                 target="_blank"
               >
                 VIEW

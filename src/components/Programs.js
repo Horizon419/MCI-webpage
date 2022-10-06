@@ -3,7 +3,7 @@ import SectionHead from './SectionHead';
 import { programs } from '../data'
 import {Link} from 'react-router-dom'
 import Card from '../UI/Card';
-import { Button } from 'react-bootstrap';
+
 
 const Programs = () => {
   return (
@@ -19,7 +19,7 @@ const Programs = () => {
                 <h4>{title}</h4>
                 <small>{info}</small>
                 <Link to='/contact' className="btn sm">
-                 <Button className="jos">More</Button> 
+                 More
                   
                 </Link>
               </Card>

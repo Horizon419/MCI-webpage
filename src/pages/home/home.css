@@ -6,6 +6,7 @@
     margin-top: 3rem;
 }
 
+
 .main__header-container {
     height: 100%;
     display: grid;
@@ -84,12 +85,12 @@
         }
 }
 
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .programs__wrapper{
         grid-template-columns: 1fr;
       
     }
-} */
+}
 
 
 

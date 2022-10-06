@@ -12,9 +12,8 @@ import {
 const Footer = () => {
   return (
     <>
-      
       <Box>
-        <hr/>
+        <hr />
         <Container>
           <Row>
             <Column>
@@ -52,7 +51,7 @@ const Footer = () => {
                   <span style={{ marginLeft: "10px" }}>
                     <a
                       href="https://facebook.com/groups/764300971307086/"
-                      rel="noopener"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       Facebook
@@ -65,7 +64,7 @@ const Footer = () => {
                   <span style={{ marginLeft: "10px" }}>
                     <a
                       href="https://www.instagram.com/invites/contact/?i=w26lrejdhypi&utm_content=peq86do"
-                      rel="noopener"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       Instagram
@@ -76,7 +75,11 @@ const Footer = () => {
               <FooterLink>
                 <i className="fab fa-twitter">
                   <span style={{ marginLeft: "10px" }}>
-                    <a href="" rel="noopener" target="_blank">
+                    <a
+                      href="https://youtube.com/channel/UC3dL4a_ihu4EMZPnJBqcuJw"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
                       Twitter
                     </a>
                   </span>
@@ -87,7 +90,7 @@ const Footer = () => {
                   <span style={{ marginLeft: "10px" }}>
                     <a
                       href="https://youtube.com/channel/UC3dL4a_ihu4EMZPnJBqcuJw"
-                      rel="noopener"
+                      rel="noreferrer"
                       target="_blank"
                     >
                       Youtube

@@ -8,7 +8,6 @@ import Headers from "../../components/Headers";
 import Mcc from "../../images/mccci.jpg";
 
 
-
 const Contact = () => {
   const formInitialDetails = {
     firstName: "",
@@ -82,7 +81,6 @@ const Contact = () => {
                       isVisible ? "animate__animated animate__fadeIn" : ""
                     }
                   >
-                 
                     <h2>Get In Touch</h2>
                     <form onSubmit={handleSubmit}>
                       <Row>
@@ -135,6 +133,7 @@ const Contact = () => {
                               onFormUpdate("message", e.target.value)
                             }
                           ></textarea>
+                          <p></p>
                           <button type="submit">
                             <span>{buttonText}</span>
                           </button>
@@ -159,9 +158,47 @@ const Contact = () => {
           </Row>
         </Container>
       </section>
+      <div className="contact_info">
+        <div className="container">
+          <ul className="clearfix">
+            <li>
+              <i className="pe-7s-map-marker"></i>
+              <h4>Address</h4>
+              <span>
+                PO Box 97845 Baker st. 567, Los Angeles
+                <br />
+                California - US.
+              </span>
+            </li>
+            <li>
+              <i className="pe-7s-mail-open-file"></i>
+              <h4>Email address</h4>
+              <span>
+                admission@udema.com - info@udema.com
+                <br />
+                <small>Monday to Friday 9am - 7pm</small>
+              </span>
+            </li>
+            <li>
+              <i className="pe-7s-phone"></i>
+              <h4>Contacts info</h4>
+              <span>
+                + 61 (2) 8093 3402 + 61 (2) 8093 3402
+                <br />
+                <small>Monday to Friday 9am - 7pm</small>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+{/* NEXT LINE BELOW */}
+
+    
     </>
   );
 };
+
 
 
 export default Contact

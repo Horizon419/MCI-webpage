@@ -15,32 +15,32 @@ const Imageslides = () => {
       <Fade>
         <div className="each-slide">
           <div>
-            <img src={One} />
+            <img src={One} alt="slideone" />
           </div>
         </div>
         <div className="each-slide">
           <div>
-            <img src={Two} />
+            <img src={Two} alt="slideoe" />
           </div>
         </div>
         <div className="each-slide">
           <div>
-            <img src={Three} />
+            <img src={Three} alt="slideon" />
           </div>
         </div>
         <div className="each-slide">
           <div>
-            <img src={Four} />
+            <img src={Four} alt="slidene" />
           </div>
         </div>
         <div className="each-slide">
           <div>
-            <img src={Five} />
+            <img src={Five} alt="slideones" />
           </div>
         </div>
         <div className="each-slide">
           <div>
-            <img src={Six} />
+            <img src={Six} alt="slidetwo" />
           </div>
         </div>
       </Fade>

@@ -16,12 +16,11 @@ const Projects = () => {
       <a
         href="https://forms.gle/be3mpYBT8DotbrKp8"
         className="btn lg"
-        rel="noopener"
+        rel="noreferrer"
         target="_blank"
       >
         Register with us
       </a>
-      
     </>
   );
 }
